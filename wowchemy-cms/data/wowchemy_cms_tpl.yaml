@@ -258,15 +258,8 @@ collections:
               - {label: "Brand", value: "fab"}
               - {label: "Academic", value: "ai"}
           - {label: "Icon (see https://wowchemy.com/docs/page-builder/#icons)", name: icon, widget: string, required: false}
-      - {label: "Event", name: "event", widget: "string"}
-      - {label: "Event link", name: "event_url", widget: "string"}
+      - {label: "Event", name: "event", widget: "string", default: "EPSL Seminars"}
       - {label: "Publish this page on", name: "publishDate", widget: "datetime"}
-      - {label: "Markdown slides (reference a deck in 'content/slides/')", name: "slides", widget: "string", required: false}
-      - label: "Draft"
-        name: "draft"
-        widget: "boolean"
-        default: false
-        required: false
       - label: "Featured"
         name: "featured"
         widget: "boolean"
